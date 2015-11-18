@@ -1,0 +1,26 @@
+.\out\spi.o: user\spi.c
+.\out\spi.o: user\spi.h
+.\out\spi.o: .\sys\stm32f10x.h
+.\out\spi.o: .\sys\core_cm3.h
+.\out\spi.o: D:\Program Files (x86)\MDK412\ARM\RV31\INC\stdint.h
+.\out\spi.o: .\sys\system_stm32f10x.h
+.\out\spi.o: .\user\stm32f10x_conf.h
+.\out\spi.o: .\lib\inc\stm32f10x_bkp.h
+.\out\spi.o: .\sys\stm32f10x.h
+.\out\spi.o: .\lib\inc\stm32f10x_gpio.h
+.\out\spi.o: .\lib\inc\stm32f10x_pwr.h
+.\out\spi.o: .\lib\inc\stm32f10x_rcc.h
+.\out\spi.o: .\lib\inc\stm32f10x_rtc.h
+.\out\spi.o: .\lib\inc\stm32f10x_spi.h
+.\out\spi.o: .\lib\inc\stm32f10x_usart.h
+.\out\spi.o: .\lib\inc\misc.h
+.\out\spi.o: .\user\define.h
+.\out\spi.o: .\user\serial1.h
+.\out\spi.o: .\user\serial3.h
+.\out\spi.o: .\user\serial4.h
+.\out\spi.o: .\user\serial5.h
+.\out\spi.o: .\user\calculation.h
+.\out\spi.o: .\lib\mylib\printf.h
+.\out\spi.o: .\user\usart.h
+.\out\spi.o: .\lib\mylib\communication.h
+.\out\spi.o: .\user\user.h

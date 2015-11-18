@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\out\stm32f10x_gpio.o" ".\out\stm32f10x_rcc.o" ".\out\misc.o" ".\out\stm32f10x_usart.o" ".\out\stm32f10x_rtc.o" ".\out\stm32f10x_pwr.o" ".\out\stm32f10x_bkp.o" ".\out\stm32f10x_spi.o" ".\out\core_cm3.o" ".\out\system_stm32f10x.o" ".\out\startup_stm32f10x_hd.o" ".\out\main.o" ".\out\stm32f10x_it.o" ".\out\calculation.o" ".\out\spi.o" ".\out\flash.o" ".\out\input.o" ".\out\tiaoshi.o" ".\out\serial1.o" ".\out\serial4.o" ".\out\serial3.o" ".\out\serial5.o" ".\out\printf.o" ".\out\communication.o" ".\out\user.o" --library_type=microlib --strict --scatter ".\out\BAIJIN.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\out\BAIJIN.map" -o ".\out\BAIJIN.axf"

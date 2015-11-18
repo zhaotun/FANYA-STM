@@ -1,0 +1,27 @@
+.\out\flash.o: user\flash.c
+.\out\flash.o: user\flash.h
+.\out\flash.o: .\sys\stm32f10x.h
+.\out\flash.o: .\sys\core_cm3.h
+.\out\flash.o: D:\Program Files (x86)\MDK412\ARM\RV31\INC\stdint.h
+.\out\flash.o: .\sys\system_stm32f10x.h
+.\out\flash.o: .\user\stm32f10x_conf.h
+.\out\flash.o: .\lib\inc\stm32f10x_bkp.h
+.\out\flash.o: .\sys\stm32f10x.h
+.\out\flash.o: .\lib\inc\stm32f10x_gpio.h
+.\out\flash.o: .\lib\inc\stm32f10x_pwr.h
+.\out\flash.o: .\lib\inc\stm32f10x_rcc.h
+.\out\flash.o: .\lib\inc\stm32f10x_rtc.h
+.\out\flash.o: .\lib\inc\stm32f10x_spi.h
+.\out\flash.o: .\lib\inc\stm32f10x_usart.h
+.\out\flash.o: .\lib\inc\misc.h
+.\out\flash.o: .\user\define.h
+.\out\flash.o: .\user\serial1.h
+.\out\flash.o: .\user\serial3.h
+.\out\flash.o: .\user\serial4.h
+.\out\flash.o: .\user\serial5.h
+.\out\flash.o: .\user\calculation.h
+.\out\flash.o: .\lib\mylib\printf.h
+.\out\flash.o: .\user\usart.h
+.\out\flash.o: .\lib\mylib\communication.h
+.\out\flash.o: .\user\user.h
+.\out\flash.o: user\spi.h

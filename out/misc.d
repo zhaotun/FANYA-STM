@@ -1,0 +1,26 @@
+.\out\misc.o: lib\src\misc.c
+.\out\misc.o: .\lib\inc\misc.h
+.\out\misc.o: .\sys\stm32f10x.h
+.\out\misc.o: .\sys\core_cm3.h
+.\out\misc.o: D:\Program Files (x86)\MDK412\ARM\RV31\INC\stdint.h
+.\out\misc.o: .\sys\system_stm32f10x.h
+.\out\misc.o: .\user\stm32f10x_conf.h
+.\out\misc.o: .\lib\inc\stm32f10x_bkp.h
+.\out\misc.o: .\sys\stm32f10x.h
+.\out\misc.o: .\lib\inc\stm32f10x_gpio.h
+.\out\misc.o: .\lib\inc\stm32f10x_pwr.h
+.\out\misc.o: .\lib\inc\stm32f10x_rcc.h
+.\out\misc.o: .\lib\inc\stm32f10x_rtc.h
+.\out\misc.o: .\lib\inc\stm32f10x_spi.h
+.\out\misc.o: .\lib\inc\stm32f10x_usart.h
+.\out\misc.o: .\lib\inc\misc.h
+.\out\misc.o: .\user\define.h
+.\out\misc.o: .\user\serial1.h
+.\out\misc.o: .\user\serial3.h
+.\out\misc.o: .\user\serial4.h
+.\out\misc.o: .\user\serial5.h
+.\out\misc.o: .\user\calculation.h
+.\out\misc.o: .\lib\mylib\printf.h
+.\out\misc.o: .\user\usart.h
+.\out\misc.o: .\lib\mylib\communication.h
+.\out\misc.o: .\user\user.h
