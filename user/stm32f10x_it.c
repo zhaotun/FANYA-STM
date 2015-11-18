@@ -264,10 +264,10 @@ void UART4_IRQHandler(void)
 		
 		if(Send_Flag & 0X08) USART_SendData(UART5,USART_ReceiveData(UART4));	//把接收到的数据向串口5发送
 	} 
-	if(USART_GetITStatus(UART4, USART_IT_TXE) != RESET)
-	{    
-		Printf_Send();		//发送一帧数据
-	}  
+//	if(USART_GetITStatus(UART4, USART_IT_TXE) != RESET)
+//	{    
+//		Printf_Send();		//发送一帧数据
+//	}  
 
 }
 

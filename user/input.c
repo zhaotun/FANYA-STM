@@ -50,7 +50,6 @@ u32  doorCloseCounter = 0;
 u32  doorOpenCounter = 0;
 u8  disturbDoorOpen = 0;
 u8  doorOpenCS = 0;
-u8  Timer = 0;
 /********************************************************************************************************
 	函数名：Input_InputStateCollect()
 	说  明：
@@ -95,7 +94,6 @@ void Input_InputStateCollect()
 	Old_Input_State=Input_State;	        //保存上一扫描时刻的输入电平状态
 	
 	Input_Timer++;							//扫描计数器加1，因扫描频率为1次/ms，故此计数器每毫秒加1
-//    Timer++;
 
 	if(Input_Timer >= 50)						//若扫描次数达到30，即30ms以内
 	{
@@ -116,7 +114,7 @@ void Input_InputStateCollect()
 
              doorOpenCounter++;
 
-             printf("doorOpenCounter = %d\r\n",doorOpenCounter);
+//             printf("doorOpenCounter = %d\r\n",doorOpenCounter);
 
              if( doorOpenCounter >= 4 * 20 )  //检测到开门的时间达到4秒钟
              {
@@ -133,7 +131,7 @@ void Input_InputStateCollect()
 
              doorCloseCounter ++ ;    //检测到有效关门信号的次数
 
-             printf("&&&&doorCloseCounter = %d\r\n",doorCloseCounter);
+//             printf("&&&&doorCloseCounter = %d\r\n",doorCloseCounter);
 
              doorOpenCounter = 0;     //清除开门计数，防止其累加，可滤除关门期间的开门信号干扰
              
@@ -205,7 +203,7 @@ void Input_Edge(void)
 		if(Old_Flag != Flag)
 		{
     		Mode_STATE = 'M';
-            printf("控制器输入低电平，手动模式\r\n");
+//            printf("控制器输入低电平，手动模式\r\n");
     		USART3_SendWorld=26;  //发送命令301
 			Old_Flag = Flag;
 		}				   
@@ -218,7 +216,7 @@ void Input_Edge(void)
 		if(Old_Flag != Flag)
 		{
     		Mode_STATE = 'A';
-            printf("控制器输入高电平，自动模式\r\n");
+//            printf("控制器输入高电平，自动模式\r\n");
     		USART3_SendWorld=28;  //发送命令303
 			Old_Flag = Flag;
 		}				      

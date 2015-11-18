@@ -16,7 +16,7 @@
 #include "printf.h"
 #include <stdio.h>
 
-#define Open_Printf
+//#define Open_Printf
 #define	PRINTF_LEN				200			//打印缓冲区深度，自由定义，越大越好
 #define OPEN_PRINTF_INTERRUPT   USART_ITConfig(UART4, USART_IT_TXE, ENABLE);		//启动打印中断
 #define PRINTF_ONE_DATA			USART_SendData(UART4, Printf_TxBuffer[Printf_TxSendPoint++]);	//打印一个字节数据
